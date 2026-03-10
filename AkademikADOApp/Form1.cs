@@ -41,6 +41,4 @@ namespace AkademikADOApp
             try
             {
                 if (conn != null && conn.State == ConnectionState.Open)
-                {
-                    conn.Close();
- 
+                
