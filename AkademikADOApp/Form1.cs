@@ -10,3 +10,13 @@ namespace AkademikADOApp
     {
         string connString = @"Data Source=LAPTOP-MBD0B33T\SHENDY;Initial Catalog=DBAkademikADO;Integrated Security=True";
         SqlConnection conn;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
