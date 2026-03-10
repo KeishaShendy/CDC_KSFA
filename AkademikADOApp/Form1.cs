@@ -54,4 +54,6 @@ namespace AkademikADOApp
             catch (Exception ex)
             {
                 MessageBox.Show("Gagal disconnect: " + ex.Message);
-}
+            }
+        }
+
