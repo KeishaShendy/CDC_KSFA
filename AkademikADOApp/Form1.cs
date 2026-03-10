@@ -22,4 +22,8 @@ namespace AkademikADOApp
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
-      
+        {
+            try
+            {
+                conn = new SqlConnection(connString);
+                conn.Open();
